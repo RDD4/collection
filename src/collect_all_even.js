@@ -1,4 +1,5 @@
 'use strict';
+//gchgvhccgh
 
 function collect_all_even(collection) {
   //在这里写入代码
@@ -8,7 +9,7 @@ function collect_all_even(collection) {
        if(collection[i]%2==0)
            num[k++]=collection[i];
     }
-  return num;
+  return num+1;
 }
 
 module.exports = collect_all_even;
